@@ -1,0 +1,71 @@
+#! /shell/bash
+#Made by Ariyan Pegu Public Project...
+#Shell file for PUBG Global......
+echo ""
+if [ ! -d "/sdcard/Paks" ];
+then
+cp -r /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks /sdcard
+fi
+echo "STARTING NEW PUBLIC PROJECT TMCLOUDSTORE"
+sleep 1
+echo "PUBG MOBILE GLOBAL"
+sleep 2
+echo ""
+echo -n "MADE BY : "
+echo ""
+echo "      ░█▀▀█ ▒█▀▀█ ▀█▀ ▒█░░▒█ ░█▀▀█ ▒█▄░▒█      "
+echo "      ▒█▄▄█ ▒█▄▄▀ ▒█░ ▒█▄▄▄█ ▒█▄▄█ ▒█▒█▒█      "
+echo "      ▒█░▒█ ▒█░▒█ ▄█▄ ░░▒█░░ ▒█░▒█ ▒█░░▀█      "
+sleep 2
+echo ""
+start=`date +%s`
+start=`date +%s`
+echo -e "
+"
+sleep 2
+echo -n "Date&Time: "
+date "+%a %d %b %Y %Z %H:%M:%S"
+echo -n "Device        : "
+getprop ro.product.brand
+echo -n "Device Type   : "
+getprop ro.product.model
+sleep 2
+echo "\n"
+echo "START DEBUGGING GAME DATA - ⏳"
+echo ""
+sleep 3
+cp -r ModePak/game_patch_0.18.0.12620.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.18.0.12620.pak
+cp -r ModePak/game_patch_0.18.0.12621.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.18.0.12621.pak
+echo ""
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/ProgramBinaryCache 2> /dev/null
+sleep 2
+touch /storage/emulated/0/Android/data/com.tencent.ig/files/ProgramBinaryCache
+echo "GAME DATA DEBUGGING SUCESSFUL - ✔️"
+echo ""
+rm -rf /storage/emulated/0/log 2> /dev/null
+rm -rf /storage/emulated/0/tencent 2> /dev/null
+rm -rf /storage/emulated/0/MidasOversea 2> /dev/null
+rm -rf /storage/emulated/0/.backups 2> /dev/null
+rm -rf /storage/emulated/0/backups 2> /dev/null
+rm -rf /storage/emulated/0/.cc 2> /dev/null
+rm -rf /storage/emulated/0/.DataStorage 2> /dev/null
+rm -rf /storage/emulated/0/.mcs 2> /dev/null
+rm -rf /storage/emulated/0/.SAU 2> /dev/null
+rm -rf /storage/emulated/0/.um 2> /dev/null
+rm -rf /storage/emulated/0/.UTSystemConfig 2> /dev/null
+rm -rf /storage/emulated/0/.uxx 2> /dev/null
+rm -rf /storage/emulated/0/baidu 2> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache 2> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/tbslog 2> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs 2> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/cdn_version.json 2>/dev/null
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json 2>/dev/null
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/filelist.json 2>/dev/null
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/apollo_reslist.flist 2>/dev/null
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/new.filelist 2>/dev/null
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs 2>/dev/null
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag 2> /dev/null
+echo ""
+sleep 2
+echo "\nYou Can Exit Shell Files......"
+echo ""
