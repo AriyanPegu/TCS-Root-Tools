@@ -7,4 +7,4 @@ POWERED BY ARIYANYT
 #IF YOU WANT TO USE THIS TOOLS..??
 #TYPE COMMAND
 
-pkg install git && https://github.com/AriyanPegu/TCS-Root-Tools && cd TCS-Root-Tools && clear
+clear && pkg install git && https://github.com/AriyanPegu/TCS-Root-Tools && cd TCS-Root-Tools && clear
