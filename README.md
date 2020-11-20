@@ -11,6 +11,4 @@ POWERED BY ARIYANYT
 
 
 
-1.   clear && pkg install git && rm -rf TCS-Root-Tools && git clone https://github.com/AriyanPegu/TCS-Root-Tools && cd TCS-Root-Tools && clear
-
-2.   su -c sh TCS_TOOLS_GL
+1.   clear && pkg install git && rm -rf TCS-Root-Tools && git clone https://github.com/AriyanPegu/TCS-Root-Tools && cd TCS-Root-Tools && clear && su -c sh TCS_TOOLS_GL
