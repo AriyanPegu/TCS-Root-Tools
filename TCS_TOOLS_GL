@@ -195,7 +195,6 @@ sleep 0.5
 echo "𝐘𝐎𝐔 𝐂𝐀𝐍 𝐄𝐗𝐈𝐓 𝐌𝐓 𝐌𝐀𝐍𝐀𝐆𝐄𝐑"
 echo "$red"
 sleep 1
-am start -n bin.mt.plus/bin.mt.plus.Main
 am force-stop com.termux
 
 elif [[ $version == 2 ]]; then
@@ -237,7 +236,6 @@ echo ""
 echo "──𝐓𝐌𝐂𝐋𝐎𝐔𝐃-𝐒𝐓𝐎𝐑𝐄"
 echo "$red"
 sleep 1
-am start -n bin.mt.plus/bin.mt.plus.Main
 am force-stop com.termux
 
 elif [[ $version == 3 ]]; then
@@ -259,7 +257,6 @@ echo ""
 echo "──𝐓𝐌𝐂𝐋𝐎𝐔𝐃-𝐒𝐓𝐎𝐑𝐄"
 echo "$red"
 sleep 1
-am start -n bin.mt.plus/bin.mt.plus.Main
 am force-stop com.termux
 
 elif [[ $version == 4 ]]; then
@@ -280,7 +277,6 @@ echo ""
 echo "──𝐓𝐌𝐂𝐋𝐎𝐔𝐃-𝐒𝐓𝐎𝐑𝐄"
 echo "$red"
 sleep 1
-am start -n bin.mt.plus/bin.mt.plus.Main
 am force-stop com.termux
 
 elif [[ $version == * ]]; then
